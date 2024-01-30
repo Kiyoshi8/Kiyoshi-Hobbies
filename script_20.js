@@ -1,20 +1,3 @@
-/*const form  = document.querySelector("form");
-
-function sendEmail() {
-    Email.send({
-        Host : "smtp.elasticemail.com",
-        Username : "kiyoshi.rio@gmail.com",
-        Password : "E85C5424E88BBD0D934166A5D4CCC2C32E53",
-        To : 'kiyoshi.rio@gmail.com',
-        From : "kiyoshi.rio@gmail.com",
-        Subject : "This is the subject",
-        Body : "And this is the body"
-    }).then(
-      message => alert(message)
-    );
-}
-
-form.addEventListener("submit", (e) => {});*/
 
 function sendMail() {
     var params = {
